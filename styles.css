@@ -1,0 +1,70 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'Open Sans';
+}
+
+/* ? Gloabal elements */
+
+section{
+    margin: 0 auto;
+
+    align-items: flex-end;
+}
+
+
+/* ? Hero Section */
+
+.hero{
+    background: url(./images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(257, 40%, 49%);
+    
+}
+
+.logo{
+    margin: 50px 0 50px 70px;
+}
+
+.hero-body{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* flex-wrap: wrap; */
+}
+
+.header{
+    width: 31%;
+    margin-top: 30px;
+}
+
+.title{
+    font-size: 2.5em;
+}
+
+.header-description{
+    margin: 20px auto 20px;
+    line-height: 1.75em;
+}
+
+.register-btn{
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    border: 1px solid hsl(257, 40%, 49%);
+    border-radius: 40px;
+    padding: 15px 60px;
+    font-size: 1.15em;
+    font-weight: 400;
+}
+
+.header-mockups{
+
+    
+}
+
